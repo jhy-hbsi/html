@@ -1,0 +1,224 @@
+
+header{
+	width: 16rem;
+	/* height: 7.325rem; */
+	/* background-color: #1A6AE6; */
+		position: relative;
+		height: 2.1538rem;
+}
+header .a1{
+	float: left;
+	margin-left: 5.0385rem;
+	margin-top: 0.25rem;
+}
+header .a2 {
+  width: 0.9rem;
+  height: 1.9rem;
+float: right;
+margin-right: 0.4615rem;
+}
+header #a {
+	width: 1rem;
+	height: 2rem;
+	cursor: pointer;
+	background-image: url(../imgs/nav.png);
+	background-repeat: no-repeat;
+	background-position: center 0.8rem;
+  }
+  header #a #b {
+	position: absolute;
+	left: 0;
+	top: 2.1538rem;
+	height: 32.3077rem;
+	width: 16rem;
+	z-index: 3;
+	background: white;
+	display: none;
+  }
+  header #a #b ul {
+	width: 7.3077rem;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 3.8462rem;
+	box-sizing: border-box;
+  }
+  header #a #b ul li {
+	text-align: center;
+	margin-bottom: 2rem;
+	font-style: 0.9231rem;
+	color: #075FE5;
+	font-style: "黑体";
+	font-weight: bold;
+  }
+  header #a #b ul li:nth-last-of-type(1) {
+	display: flex;
+	padding-top: 3rem;
+	box-sizing: border-box;
+	margin-left: 0.5rem;
+  }
+  header #a #b ul li:nth-last-of-type(1) .photo {
+	width: 1.6538rem;
+	height: 1.6538rem;
+	font-size: 0;
+	margin-right: 0.5rem;
+  }
+  header #a #b ul li:nth-last-of-type(1) .photo img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+  }
+  header #a #b ul li:nth-last-of-type(1) .number {
+	width: 5rem;
+	height: 1.6923rem;
+	font-size: 0;
+  }
+  header #a #b ul li:nth-last-of-type(1) .number p {
+	font-size: 0.6154rem;
+	color: #2778E6;
+	font-style: "宋体";
+	line-height: 1rem;
+	font-weight: normal;
+	vertical-align: middle;
+	text-align: left;
+  }
+.banner{
+	width: 16rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.gl{
+	position: relative;
+}
+.gonglue .p1{
+	width: 3.461538rem;
+	height: 3.461538rem;
+	font-size: 0.653846rem;
+	color: #FFFFFF;
+	text-align: center;
+	background-color:#1A6AE6 ;
+	position: absolute;
+	bottom:-0.692307rem; left:0.5rem;
+}
+.gonglue .p1 span{
+	display: block;
+	text-align: center;
+	/* margin-bottom: 0.5rem; */
+	line-height: 1.7rem;
+}
+.gonglue .p2{
+	background: url(../imgs/snajiao.gif) no-repeat left center;
+	margin:0.961538rem 0 0 5rem;
+	padding-left:0.961538rem;
+	font-size: 0.375rem;	
+}
+.content{
+	margin: 0.461538rem;
+	width: 15rem;
+	height: 31.923076rem;
+	margin-top:1.153846rem;
+}
+.content h4{
+	font-weight: normal; 
+	font-size: 0.653846rem;
+	margin-top: 0.76923rem;
+}
+.content p{
+	font-size:0.615384rem ;
+	margin-top: 0.5rem;
+	color: #ADACAC;
+}
+.content .ditu img{
+	width: 15rem;
+	height: 11rem;
+	margin-top: 0.807692rem;
+}
+.content .lianxi{
+	width: 15rem;
+	height: 4.153846rem;
+	background-color:#1259E6 ;
+	margin-top: 0.846153rem;
+	border-radius: 0.384615rem;
+}
+.content .lianxi li{
+	padding-left: 0.384615rem;
+	font-size: 0.615384rem;
+	line-height: 0.946153rem;
+	color: #A5C0F5;
+}
+.content .lianxi .li1{
+	font-size: 0.730769rem;
+	color: #FFFFFF;
+	height: 35px;
+	line-height: 1.346153rem;
+	padding-top: 0.384615rem;
+}
+.content .erweima{
+	margin-top:0.653846rem ;
+	/* height:8.076923rem; */
+}
+.content .erweima li{
+	float: left;
+	width: 6.538461rem;
+	height: 6.538461rem;
+	border: 0.038461rem solid #E1DFDF;
+}
+.content .erweima .li1{
+	margin-left:1.730769rem ;
+}
+.content .erweima li img{
+	width: 6.192307rem;
+	height: 6.192307rem;
+	margin: 0.192307rem;
+}
+.content .erweima p{
+	padding-left:1.730769rem ;
+
+}
+.tubiao{
+	position: absolute;
+	bottom:-18rem;left:12.9rem;
+}
+.tubiao li{
+	margin-top: 0.15rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	font-size: 0.3rem;
+	text-align: center;
+	color: #fff;
+	background-color: #075FE4;
+}
+.tubiao .li1 span{
+	background: url(../imgs/erji.gif) no-repeat 0.6rem;
+}
+.tubiao .li3 span{
+	background: url(../imgs/erweima.gif) no-repeat 0.6rem;
+}
+.tubiao .li4 {
+	width: 2.5rem;
+	height: 1.25rem;
+}
+.tubiao img{
+	margin-top: 0.25rem;
+}
+.tubiao li span{
+	width: 1.7rem;
+	height: 1.5rem;
+	display: block;
+	background: url(../imgs/dianhua.gif) no-repeat 0.6rem;
+}
+
+.foot{
+	width: 15.9231rem;
+	height: 4.2308rem;
+	margin-top: 1.5rem;
+	padding: 0.6154rem 0.4615rem 0 0.4615rem;
+	box-sizing: border-box;
+	background: #4A4A4A;
+}
+.foot li{
+	height: 1.0769rem;
+	font-size: 0.5385rem;
+	color: #BFBEBE;
+}

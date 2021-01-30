@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>联系我们</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="iconfont/font_h5abl6966e6/iconfont.css">
+	 <script>
+		    window.onload = window.onresize = function(){
+		        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		        var _html = document.getElementsByTagName('html')[0];
+		        view_width>414?_html.style.fontSize = 414/ 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		    }
+		</script>
+</head>
+<body>
+	<header>
+		<div class="a1">
+		    <img src="imgs/logo.gif" alt="">
+		</div>
+		<div class="a2">
+			<div id="a">
+				<div id="b">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="../公司简介/index.html">关于攻略</a></li>
+						<li><a href="../施工案例/index.html">施工案例</a></li>
+						<li><a href="../新闻资讯/index.html">新闻资讯</a></li>
+						<li><a href="../联系我们/index.html">联系我们</a></li>
+						<li>
+							<div class="photo">
+								<img src="imgs/online-phone.png" alt="">
+							</div>
+							<div class="number">
+								<p>0312-8492115</p>
+								<p>13131585767</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="banner">
+		<img src="imgs/banner.gif" alt="">
+	</div>
+	<div class="gl">
+		<div class="gonglue">
+			<p class="p1 fl"><span>— C —</span>联系我们</p>
+			<p class="p2">联系我们</p>
+		</div>
+	</div>
+	  <div class=" content">
+		    <h4>联系电话</h4>
+		    <p>手机号码：0312-8492115</p>
+		    <p>办公电话：13131285767</p>
+		    <h4>邮箱</h5>
+		    <p>公司邮箱：hebeigonglue@163.com</p>
+		  <div class="ditu">
+		  	<img src="imgs/ditu.gif" >
+		  </div>
+		   <ul class="lianxi">
+		   	 <li class="li1">联系地址</li>
+		   	 <li>地址：河北省保定市清苑区田各庄工业区保横路东侧</li>
+		   	 <li>姓名：（191324233 姜宏雨）</li>
+		   </ul>
+		 <ul class="erweima clearfix">
+		 	<li>
+				<img src="imgs/gongzhonghao.gif" alt="">
+				<p>微信公众号</p>
+			</li>
+		 	<li class="li1">
+				<img src="imgs/gongzhonghao.gif" alt="">
+				<p>微信公众号</p>
+			</li>
+		 </ul>
+	  </div>
+	    <div class="tubiao">
+			<li class="li1">
+				<span></span>
+				<strong>在线客服</strong>
+			</li>
+			<li class="li2">
+				<span></span>
+				<strong>联系电话</strong>
+			</li>
+			<li class="li3">
+				<span></span>
+				<strong>微信咨询</strong>
+			</li>
+			<li class="li4">
+				<img src="imgs/shangjiantou.gif" >
+			</li>
+		</ul>
+	</div>
+	
+	<ul class="foot">
+		<li>联系电话: 0312- -8492115131 31 285767</li>
+		<li>地址:河北省保定市清苑区田各庄工业区保衡路东侧</li>
+		<li>Copyright。2017 河北攻略文化传媒集团有限公司版权所</li>
+	</ul>
+	<script>
+        var a = document.getElementById('a');
+        var b = document.getElementById('b');
+        var c = b.style;
+        // a.style.backgroundImage ="url('img/close.png')";
+        
+        a.onclick = function(){
+            if(b.style.display == 'block'){
+                b.style.display = 'none';
+                a.style.backgroundImage = "url('imgs/nav.png')";
+            }else{
+                b.style.display = 'block';
+                a.style.backgroundImage = "url('imgs/close.png')";
+            }
+        }
+	</script>
+</body>
+</html>
