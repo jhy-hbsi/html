@@ -1,0 +1,29 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+img{
+    vertical-align: middle;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.juZhong{
+    margin: 0 auto;
+    text-align: center;
+}
+.F-S{
+    font-style: "黑体";
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
