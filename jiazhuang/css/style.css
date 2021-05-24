@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.head img {
+	float: left;
+}
+
+.head a {
+	color: black;
+	float: right;
+	color: #ffff;
+}
+
+
+
+.daohang {
+	height: 35px;
+	line-height: 35px;
+	width: 1200px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.daohang li {
+	float: left;
+	padding-left: 4px;
+	background:#141414;
+	text-align: center;
+	padding-left: 50px;
+}
+.daohang a:hover {
+	color: #FF9B00;
+}
+.daohang  li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	display: block;
+	width: 116px;
+	text-align: center;
+}
+.youhui {
+	margin-top: 12px;
+}
+
+.youhui p {
+	text-align: center;
+	font-size: 40px;
+	font-family: "幼圆";
+}
+
+.youhui a {
+	color: black;
+}
+
+.youhui p a:hover {
+	color: coral;
+	background-color: aquamarine;
+}
+
+.youhui img {
+	margin-right: 59px;
+	margin-top: 25px;
+}
+
+.libao {
+	margin-top: 12px;
+}
+
+.libao p {
+	text-align: center;
+	font-size: 40px;
+	font-family: "幼圆";
+}
+
+.libao a {
+	color: black;
+}
+
+.libao p a:hover {
+	color: coral;
+	background-color: aquamarine;
+}
+
+.libao img {
+	margin-right: 59px;
+	margin-top: 25px;
+}
+
+.lb {
+	margin-top: 24px;
+}
+
+.lb li {
+	float: left;
+	margin-right: 63px;
+}
+
+.yh {
+	margin-top: 24px;
+}
+
+.yh li {
+	float: left;
+	margin-right: 63px;
+}
+
+.ganguo {
+	margin-top: 24px;
+}
+
+.ganguo p {
+	float: left;
+}
+
+.ganguo li {
+	float: left;
+	margin-left: 25px;
+}
+
+.ganguo a {
+	color: black;
+}
+
+.ganguo a:hover {
+	color: coral;
+}
+
+.gg {
+	margin-top: 80px;
+}
+
+.gg li {
+	float: left;
+	margin-right: 100px;
+}
+
+.yp {
+	margin-top: 24px;
+}
+
+.yp li {
+	float: left;
+	margin-right: 63px;
+}
+
+.zhuce {
+	margin-left: 800px;
+	margin-top: 64px;
+	background: url(../images/zhuce.png) no-repeat;
+}
+
+.list1 {
+	margin-left: 500px;
+}
+
+input {
+	width: 210px;
+	height: 30px;
+	padding-left: 50px;
+	border: 1px solid #d2d2d2;
+	line-height: 28px;
+}
+
+.course {
+	width: 262px;
+	height: 30px;
+	border: 1px solid #d2d2d2;
+	padding: 3px 0;
+}
+
+.no_border {
+	border: none;
+	width: 222px;
+	height: 53px;
+	background: url(../images/btn.jpg) right top no-repeat;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.c1 {
+	line-height: 50px;
+	text-align: center;
+}
+
+body {
+	font-family: "幼圆"
+}
